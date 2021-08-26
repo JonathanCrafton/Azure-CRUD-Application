@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-AzureCRUDApp-20210825025838.mdf;Initial Catalog=aspnet-AzureCRUDApp-20210825025838;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jhcra\\Documents\\Visual\ Studio\ 2017\\Projects\\AzureCRUDApp\\AzureCRUDApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="AzureCRUDEntities-Web.config Connection String" description="AzureCRUDEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.TrucksDetail.csdl|res://*/Models.TrucksDetail.ssdl|res://*/Models.TrucksDetail.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(localdb)\ProjectsV13;initial catalog=AzureCRUD;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jhcra\\Documents\\Visual\ Studio\ 2017\\Projects\\AzureCRUDApp\\AzureCRUDApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureCRUDEntities']/@connectionString" />
+  </parameter>
+</parameters>
